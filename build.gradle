@@ -3,5 +3,5 @@ subprojects {
 	repositories {
 		mavenCentral()
 	}
-  test.onlyIf { Boolean.getBoolean('skip.tests') }
+	test.reports.html.enabled = true
 }
