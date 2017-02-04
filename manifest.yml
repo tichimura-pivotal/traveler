@@ -1,0 +1,4 @@
+---
+applications:
+  - name: company-test
+    buildpack: staticfile_buildpack
